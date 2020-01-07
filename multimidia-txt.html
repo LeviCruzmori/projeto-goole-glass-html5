@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>tudo sobre google glass</title>
+	<link rel="stylesheet"   href="_css/estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/media.css">
+	<style type="text/css" media="screen">
+	
+body{
+	background-color: #ddddff;
+}
+
+	</style>
+
+</head>
+<script language="javascript" src="_javascript/funcoes.js">
+	
+
+	/*
+	function mudafoto (foto){
+		document.getElementById("icone").src= foto;
+
+	}*/
+</script>
+
+<!--- corpo da pagina--->
+
+<body >
+	<div id="interface">
+
+	<!-- hgruop sera considerado um grupo de titulos-->
+
+	<header id="cabecalho">
+
+	<hgroup>
+		<h1>Google Glass</h1>
+		<h2>A revolução do Google está chegando</h2>
+	</hgroup>
+
+		<img id="icone" src="_imagens/multimidia.png">
+
+		<nav id="menu" >
+			<h1>Menu Principal</h1>
+			<ul>
+				<li onmouseover="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="index-txt.html " title="">Home</a></li>
+
+				<li onmouseover="mudafoto('_imagens/especificacoes.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="specs-txt.html" title="">Especificações</a></li>
+
+				<li onmouseover="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fotos-txt.html" title="">Fotos</a></li>
+
+				<li onmouseover="mudafoto('_imagens/multimidia.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="multimidia-txt.html" title="">Multimídia</a></li>
+				
+				<li onmouseover="mudafoto('_imagens/contato.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fale-conosco-txt.html" title="">Fale conosco</a></li>
+			
+			</ul>
+
+		</nav>
+
+	</header>
+
+		<section id="corpo-full">
+<article id="noticia-principal">
+		<header id="cabecalho-artigo">
+			<hgroup>
+				<h3>Glass > Multimídia</h3>
+				<h1>Sons e Vídeos</h1>
+				<h2>Por Gustavo Guanabara</h2>
+				<h3 class="direita">Atualizado em 01/Maio/2013</h3>
+			</hgroup>
+		</header>
+	
+			<p>
+				Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.
+			</p>
+			
+<div id="tv-radio">
+
+			<audio id="musica" autobuffer autoloop loop controls>
+				<source src="_media/2009-lovers-carvings-bibio.mp3">
+				<source src="_media/2009-lovers-carvings-bibio.x-aac">
+				<source src="_media/2009-lovers-carvings-bibio.oggvorbis">
+					Desculpe, as não foi possivel carregar o audio.
+				<object type="audio/x-wav" data="/media/audio.wav" width="290" height="45">
+					<param name="src" value="/media/audio.wav">
+					<param name="autoplay" value="false">
+					<param name="autoStart" value="0">
+					<p><a href="/media/audio.wav">Download this audio file.</a></p>
+				</object>
+			</audio>
+
+
+			<video id="filme" autobuffer autoloop loop controls poster="_imagens/video-mini01.jpg">
+				<source src="_media/getting-started.mp4" type="video/mp4" media="">
+				<source src="_media/getting-started.webm" type="video/webm" media="">
+				<source src="_media/getting-started.ogg" type="video/ogg" media="">
+					Desculpe, as não foi possivel carregar o video.
+				<object type="video/ogg" data="/media/video.oga" width="320" height="240">
+				<param name="src" value="/media/video.oga">
+				<param name="autoplay" value="false">
+				<param name="autoStart" value="0">
+				<p><a href="/media/video.oga">Download this video file.</a></p>
+				</object>
+			</video>
+</div>
+
+
+	</article>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/c-fzOTxY1fI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+
+		
+		
+
+
+		
+		
+
+<!--
+<div>
+			<video id="filme" autobuffer autoloop loop controls poster="_imagens/video-mini02.jpg">
+				<source src="_media/how-it-feels.mp4" type="video/mp4" media="">
+				<source src="_media/how-it-feels.webm" type="video/webm" media="">
+				<source src="_media/how-it-feels.ogg" type="video/ogg" media="">
+					Desculpe, as não foi possivel carregar o video.
+				<object type="video/ogg" data="/media/video.oga" width="320" height="240">
+				<param name="src" value="/media/video.oga">
+				<param name="autoplay" value="false">
+				<param name="autoStart" value="0">
+				<p><a href="/media/video.oga">Download this video file.</a></p>
+				</object>
+			</video>
+</div>
+			
+<div>
+			<video id="filme" autobuffer autoloop loop controls poster="_imagens/video-mini03.jpg">
+				<source src="_media/one-day.mp4" type="video/mp4" media="">
+				<source src="_media/one-day.webm" type="video/webm" media="">
+				<source src="_media/one-day.ogg" type="video/ogg" media="">
+					Desculpe, as não foi possivel carregar o video.
+				<object type="video/ogg" data="/media/video.oga" width="320" height="240">
+				<param name="src" value="/media/video.oga">
+				<param name="autoplay" value="false">
+				<param name="autoStart" value="0">
+				<p><a href="/media/video.oga">Download this video file.</a></p>
+				</object>
+			</video>
+</div>
+	-->	
+
+
+		
+
+
+<footer id="rodape">
+		Copyright 2013 - by Gustavo Guanabara<br>
+	<a href="http://facebook.com/cursoemvideo" target="_blank" >Facebook</a>  |
+	<a href="http:/twitter.com/cursoemvideo" target="_blank" >Twitter</a> 
+</footer>
+</div>
+</body>
+</html>
